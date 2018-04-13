@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QTableWidget" name="tableWidget">
+  <widget class="QTableWidget" name="schedule_tbl">
    <property name="geometry">
     <rect>
      <x>70</x>
@@ -163,7 +163,7 @@
     </property>
    </item>
   </widget>
-  <widget class="QPushButton" name="look_ahead">
+  <widget class="QPushButton" name="look_ahead_btn">
    <property name="geometry">
     <rect>
      <x>620</x>
@@ -176,7 +176,7 @@
     <string>Look Ahead</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="create_schedule">
+  <widget class="QPushButton" name="create_schedule_btn">
    <property name="geometry">
     <rect>
      <x>620</x>
@@ -189,7 +189,7 @@
     <string>Create Schedule</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="schedule_me_lbl">
    <property name="geometry">
     <rect>
      <x>330</x>
@@ -202,7 +202,7 @@
     <string>ScheduleMe</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="recommendations">
+  <widget class="QPushButton" name="recommendations_btn">
    <property name="geometry">
     <rect>
      <x>620</x>
@@ -215,7 +215,7 @@
     <string>Recommendations</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="preferences">
+  <widget class="QPushButton" name="preferences_btn">
    <property name="geometry">
     <rect>
      <x>620</x>
